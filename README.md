@@ -25,6 +25,4 @@ This project was developed with the following technologies:
 ## 💻 Project
 
 This satisfaction survey project stores the value that the customer places so that it is transferred to the thank you page with a message and indicating the chosen grade
-# interactiveHating
-# interactiveHating
-# interactiveHating
+
