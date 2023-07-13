@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+html,
+body {
+    margin: 0;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Overpass', sans-serif;
+}
+
+main {
+    background-color: hsl(213, 19%, 18%);
+    width: 22.5rem;
+    border-radius: 50px;
+    padding: 0 0 20px 20px;
+    border: 20px solid hsl(216, 12%, 8%);
+
+}
+
+.satisfaction-survey {
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+
+}
+
+.star-icon {
+    background-color: hsla(213, 24%, 37%, 0.208);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 1.938rem;
+    font-weight: 700;
+    margin-right: 50px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 0.938rem;
+    color: hsl(217, 12%, 63%);
+    margin-right: 50px;
+    margin-top: -15px;
+    width: 100%;
+}
+
+.rating {
+    display: flex;
+    width: 330px;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.rating-points {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: hsla(213, 24%, 37%, 0.47);
+    color: white;
+}
+
+.rating-points:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.send {
+    background-color: hsl(25, 97%, 53%);
+    width: 340px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: white;
+}
+
+.send:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.container{
+    width: 360px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 5px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50px;
+    border: 20px solid hsl(216, 12%, 8%);
+}
+
+.message-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 195px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 0.938rem;
+    font-weight: 400;
+    color: hsl(25, 97%, 53%);
+    background-color: hsla(213, 24%, 37%, 0.47);
+    letter-spacing: 1px;
+}
+
+#rating-selected {
+    margin: 0 3px;
+}
+
+#message-error {
+    color: rgb(247, 70, 70);
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.thanks-title {
+    color: white;
+    font-size: 1.563rem;
+}
+
+.thanks-message {
+    color: hsl(217, 12%, 63%);
+    font-size: 0.938rem;
+    font-weight: 400;
+    margin-top: -10px;
+    width: 100%;
+
+}
+
+.select {
+    background-color: hsl(217, 12%, 63%);
+}
