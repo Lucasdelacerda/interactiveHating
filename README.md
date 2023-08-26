@@ -1,28 +1,42 @@
+# Interactive Rating - Projeto Front-end Mentor
 
-<h1 align="center"> Interactive rating</h1>
+Este é um projeto "Interactive Rating" criado como parte das atividades do Front-end Mentor. O objetivo deste projeto é criar uma pesquisa interativa de satisfação usando HTML, CSS e JavaScript. O JavaScript é usado para alterar a cor dos botões de classificação, rastrear as seleções dos usuários e redirecioná-los para uma página de agradecimento após o envio da pesquisa.
 
-<p align="center">
-Exclusive and free program, promoted by <a href="https://www.freecodecamp.org/learn"> freecodecamp</a> for teaching WEB technologies. <br/>
+## Índice
 
-</p>
-<br>
+- [Demonstração](#demonstração)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Funcionalidades](#funcionalidades)
+- [Instalação e Uso](#instalação-e-uso)
+- [Aprendizado e Observações](#aprendizado-e-observações)
+- [Créditos](#créditos)
 
-<p align="center">
-  <img alt="interactive rating preview" src="./design/desktop-design.jpg" width="100%">
-</p>
-<p align="center">
-  <img alt="Thanks page preview" src="./design/desktop-thank-you-state.jpg" width="100%">
-</p>
+## Demonstração
 
-## 🚀 Technologies
+![Capa do projeto](./desktop-design.jpg)
 
-This project was developed with the following technologies:
+## Tecnologias Utilizadas
 
-- HTML e CSS
-- JAVASCRIPT
+- HTML
+- CSS
+- JavaScript
 
+## Funcionalidades
 
-## 💻 Project
+- Os usuários podem clicar nos botões de classificação para indicar seu nível de satisfação.
+- Após enviar a pesquisa, os usuários são redirecionados para uma página de agradecimento.
+- A página de agradecimento exibe uma mensagem personalizada com o número da pesquisa de satisfação.
 
-This satisfaction survey project stores the value that the customer places so that it is transferred to the thank you page with a message and indicating the chosen grade
+## Instalação e Uso
 
+1. Clone este [repositório](https://github.com/Lucasdelacerda/interactiveHating) ou baixe os arquivos.
+2. Abra o arquivo `index.html` em um navegador da web.
+
+## Aprendizado e Observações
+
+Durante este projeto, aprendi a usar o JavaScript para alterar estilos e acompanhar as seleções dos usuários. Também aprendi a redirecionar os usuários para uma nova página após o envio de um formulário.
+
+## Créditos
+
+- Design original fornecido pelo [Front-end Mentor](https://www.frontendmentor.io/home)
+- Autor: Lucas de Lacerda
